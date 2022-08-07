@@ -1,7 +1,3 @@
 const express = require("express")
-const server = express()
+const app = express()
 
-const data = require("manager")("./data")
-server.get("/", function(req, res) {
-    
-})
