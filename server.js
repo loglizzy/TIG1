@@ -5,4 +5,4 @@ app.get("/", function(req, res){
     res.send("Hello")
 })
 
-app.listen(80)
+app.listen(process.env.port || 3030)
